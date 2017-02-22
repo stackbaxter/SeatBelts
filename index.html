@@ -22,34 +22,35 @@
 <button type="button" class="btn btn-outline-warning">Book Ride</button>
 <button type="button" class="btn btn-outline-danger">BUTTON</button>
 <!--I think there will be room for garnish next to the address bars-->
-
-<div class="container main">
-  <div class="row" style="background: linear-gradient(-90deg,  #0074D9, #39CCCC);">
-<!-- starting address -->
-
-    <div class="col-8 offset-2 form-group p-1 m-2">
-      <label for="starting">Starting Address</label><br />
-      <input id="starting" name="starting" type="text" placeholder="starting-address"
-      class="input-xlarge"><br />
-      <!-- destination address-->
-      <label class="control-label">Destination</label><br>
-      <input id="destination" name="destination" type="text" placeholder="destination"
-      class="input-xlarge">
+<!--banner greeting msg  -->
+<div class="container main gradient">
+  <div class="col-10 offset-1 p-1 m-t-2">
+    <div class="alert alert-info text-center" role="alert">
+    <strong>Hey There!</strong> Lets Go For A Ride!
     </div>
-
-<!-- map -->
-    <div class="col-12">
-       <iframe width="100%" height="auto" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJLwPMoJm1RIYRetVp1EtGm10&destination=place_id:ChIJvYfQGuO0RIYRHFPiT-VMZNY&key=AIzaSyCz_oe1ni-wHEMJQczM9Mh4M3bct6QY5Ew" allowfullscreen></iframe>
-       </iframe>
-    </div>
+  </div>
+<!--addresses  -->
+<div class="col=10 offset-1 m-1 p-1">
+  <div class="d-flex flex-row flex-wrap justify-content-center">
+    <h3 class="m-1">Pick Me Up At:</h3>
+    <input id="starting" name="starting" type="text" placeholder="starting-address" style="margin-left: 2px" class="input-xlarge">
+  </div>
+  <div class="d-flex flex-row flex-wrap m-3">
+    <h3>Drive Me To:</h3>
+    <input id="destination" name="destination" type="text" placeholder="destination address" style="margin-left: 5px" class="input-xlarge">
+  </div>
+  <div class="col-12">
+     <iframe width="100%" height="200px;" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJLwPMoJm1RIYRetVp1EtGm10&destination=place_id:ChIJvYfQGuO0RIYRHFPiT-VMZNY&key=AIzaSyCz_oe1ni-wHEMJQczM9Mh4M3bct6QY5Ew" allowfullscreen></iframe>
+     </iframe>
+  </div>
 
 </div> <!--can clean this up, don't need the "row" can just use "col-8 offset-2"
   also needs a height, about 150px and additional buttons settings and maybe something else-->
-
-  <div class="col-12 m-2 p-0 flex-column d-flex justify-content-around nav">
-  <button type="button" class="btn btn-outline-warning"><a href="rideconf.html">Book Ride</a></button>
-    <button type="button" class="btn btn-outline-danger">Later</button>
-    <button type="button" class="btn btn-outline-warning">Options</button>
+  <div class="row m-0 p-0 gradient">
+    <div class="col d-flex flex-column background align-items-center justify-content-around nav">
+  <button type="button" class="btn btn-outline-warning confnavbtn"><a href="rideconf.html">Book Ride</a></button>
+    <button type="button" class="btn btn-outline-danger confnavbtn">Later</button>
+    <button type="button" class="btn btn-outline-warning confnavbtn">Options</button>
   </div>
 </div>
 
