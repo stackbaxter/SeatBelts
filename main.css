@@ -5,7 +5,9 @@
 }
 /*write a function to change the background linear-gradient angle with every successive child where applicable*/
 
-
+.background{
+  background-color: black;
+}
 
 .nav{
   height: 300px;
