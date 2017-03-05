@@ -1,9 +1,8 @@
-header {
+.headering {
   background: url('./img/headerpic.jpg');
   background-size: cover;
-  padding: 10px;
-  border: solid black 1px;
-  width: 100%;
+  /*padding: 10px;*/
+  padding: 0;
 }
 
 .seatbeltlogo {
@@ -11,21 +10,28 @@ header {
   height: 120px;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: space-between;;
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding: 0;
 }
 
-section {
-  justify-content: center;
+.wide {
+  width: 100%;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%
 }
 
 body {
   background-color: blue;
-  color: white;
-  font-family: Georgia;
-  margin: 0;
-  width: 100%;
+  font-family: sans-serif Georgia;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .mainpic {
@@ -33,11 +39,23 @@ body {
 }
 
 .minorpic {
-  width: 200px;
+  width: auto;
   height: 130px;
   border-radius: 30%;
-  margin-top: 5px;
+  margin: 15px 0;
   border: solid black 1px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.drivepic {
+  background: url('./img/driver.jpg');
+  background-size: cover;
+}
+
+.riderpic {
+  background: url('./img/rider.jpg');
+  background-size: cover;
 }
 
 .btn {
@@ -48,9 +66,9 @@ body {
 }
 
 .foot {
-  height: 140px;
+  height: 100px;
   background-color: teal;
-  color: white;
+  padding: 0 25px;
 }
 
 .infolinks {
@@ -62,5 +80,12 @@ a {
   color: white;
   font-size: 12px;
   padding: 2px;
-  margin: 1px;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
 }
