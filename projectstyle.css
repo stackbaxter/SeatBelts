@@ -1,0 +1,128 @@
+.headering {
+  background: url('./img/headerpic.jpg');
+  background-size: cover;
+  /*padding: 10px;*/
+  padding: 5px 25px;
+}
+
+.gradient{
+  background:linear-gradient(180deg, #0074D9, #39CCCC);
+}
+
+.sec1 {
+  height: 300px;
+  background: url('./img/backseat.png');
+  background-size: cover;
+}
+
+.seatbeltlogo {
+  width: auto;
+  height: 120px;
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.wide {
+  width: 100%;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%
+}
+
+body {
+  font-family: sans-serif Georgia;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mainpic {
+  width: 100%;
+}
+
+.minorpic {
+  width: 150px;
+  height: 130px;
+  /*border-radius: 30%;*/
+  margin: 15px 10px;
+  border: solid black 1px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.drivepic {
+  background: url('./img/driver.jpg');
+  background-size: cover;
+}
+
+.riderpic {
+  background: url('./img/rider.jpg');
+  background-size: cover;
+}
+
+.btn {
+  /*border-radius: 20%;*/
+  margin: 5px;
+  width: 80px;
+  height: 40px;
+}
+
+.applestore {
+  background: url("./img/applestore.png");
+  background-size: cover;
+  width: 85px;
+  height: 30px;
+  margin: 5px 10px;
+}
+
+.googlestore {
+  background: url("./img/googlestore.png");
+  background-size: cover;
+  width: 100px;
+  height: 30px;
+  margin: 5px 10px;
+}
+
+.foot {
+  height: 150px;
+  background-color: teal;
+  padding: 10px 25px;
+}
+
+.infolinks {
+  font-size: 26px;
+  margin: 3px;
+}
+
+a {
+  color: white;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.itally {
+  font-style: italic;
+  font-family: serif;
+}
+
+.paddingscoot {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
