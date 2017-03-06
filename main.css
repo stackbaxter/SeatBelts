@@ -1,18 +1,25 @@
 
+body{
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
 .gradient{
-
-  background:linear-gradient(180deg, #0074D9, #39CCCC);
+  background-color: #39CCCC;
+  /*background:linear-gradient(180deg, #39CCCC, #0074D9);*/
 }
 /*write a function to change the background linear-gradient angle with every successive child where applicable*/
 
 .background{
-  background-color: black;
+  background: url(img/headerpic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
 }
 
 .nav{
   height: 300px;
-  background: #39CCCC);
+  background: linear-gradient(180deg, #39CCCC, #0074D9);
 }
+
 
 .confnavbtn{
   width: 10rem;
