@@ -17,23 +17,31 @@
   </title>
 </head>
   <body>
-      <div class="container-fluid" style="background: linear-gradient(-180deg, lightblue, white) p-0">
-      <div class="p-1 m-1 text-center align-self-center">
-        <div class="alert alert-info" role="alert">
-          <strong>You Got It!</strong>
-          We Are On Our Way
+    <div class="container main gradient">
+      <section>
+
+      <div class="background d-flex align-items-center">
+        <div class="col-8 offset-2 col-sm-6 offset-sm-3 p-1 m-t-2">
+          <div class="alert alert-info text-center" style="background-color: transparent; border: none;">
+            <strong>You Got It!</strong>
+              <h4 class="display-5">We Are On Our Way</h4>
         </div>
       </div>
-      <div class="col=10 offset-1 m-1 p-1 gradient">
-        <div class="d-flex flex-row flex-wrap justify-content-center">
-          <h3 class="m-1">$$Driver Name Will Pick You Up At:</h3>
+    </div>
+<!-- addresses -->
+  <div class="container">
+      <div class="col-12 m-1 p-1 gradient">
+        <div class="text-center">
+          <h6 class="m-1">Driver Name Will Pick You Up At:</h6>
           <input id="starting" name="starting" type="text" placeholder="starting-address" style="margin-left: 2px" class="input-xlarge">
         </div>
-        <div class="d-flex flex-row flex-wrap m-3 justify-content-center">
-          <h3>And Take You To:</h3>
+        <div class="m-1 p-1 text-center">
+          <h6>And Take You To:</h6>
           <input id="destination" name="destination" type="text" placeholder="destination address" style="margin-left: 5px" class="input-xlarge">
         </div>
       </div>
+</div>
+</section>
 
     <div class="d-flex flex-column m-0 text-center align-self-center" style="background: linear-gradient(0deg, #6d6cf9, #c8e5ee)">
       <p class="h4">
@@ -43,12 +51,18 @@
         You Will Recieve A Text When DriverName Is 5 Minutes Out.
       </p>
     </div>
-<div class="row m-0 p-0 gradient">
-    <div class="col d-flex flex-column background align-items-center justify-content-around nav">
+
+<div class="row m-1 p-1 foot d-flex justify-content-center">
+  <div class="text-center">
       <button type="button" class="btn btn-outline-danger confnavbtn">Make Changes</button>
-      <button type="button" class="btn btn-outline-warning confnavbtn">Cancel</button>
+  </div>
+  <div class="text-center">
+    <button type="button" class="btn btn-outline-warning confnavbtn">Cancel</button>
+  </div>
+  <div class="text-center">
       <button type="button" class="btn btn-outline-danger confnavbtn">Settings</button>
-    </div>
+  </div>
+</div>
   </div>
 
     </div>

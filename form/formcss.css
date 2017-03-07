@@ -5,6 +5,11 @@
 html{
   display:
 }
+
+footer{
+  height: 30ems;
+
+}
 .gradient{
 
   background:linear-gradient(180deg, #0074D9, #39CCCC);
@@ -17,5 +22,20 @@ html{
 .infolabel{
   border: 3px solid black;
   display: flex;
-  
+
+  }
+.navbackground{
+  background: url(../img/headerpic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thumbs{
+  height: 12em;
+  width: 16em;
+}
+
+.formsec{
+  background: url(../img/driver.jpg);
+  background-size:cover;
 }
