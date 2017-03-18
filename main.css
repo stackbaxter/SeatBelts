@@ -2,6 +2,16 @@
 body{
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
+
+.inputs{
+
+background-color: blue;
+color: yellow;
+font-size: 60px;
+
+}
+
+
 .gradient{
   background-color: #39CCCC;
   /*background:linear-gradient(180deg, #39CCCC, #0074D9);*/
