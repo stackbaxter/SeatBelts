@@ -4,7 +4,7 @@ body{
 }
 
 .inputs{
-
+justify-content: center;
 background-color: blue;
 color: yellow;
 font-size: 60px;
