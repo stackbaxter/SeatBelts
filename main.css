@@ -3,6 +3,7 @@ body{
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
+<<<<<<< HEAD
 .inputs{
 justify-content: center;
 background-color: blue;
@@ -12,9 +13,18 @@ font-size: 60px;
 }
 
 
+=======
+.foot{
+  height: 175px;
+  background: url(img/headerpic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+>>>>>>> refs/remotes/origin/master
 .gradient{
-  background-color: #39CCCC;
-  /*background:linear-gradient(180deg, #39CCCC, #0074D9);*/
+  /*background-color: #39CCCC;*/
+  background:linear-gradient(180deg, #39CCCC, #0074D9);
 }
 /*write a function to change the background linear-gradient angle with every successive child where applicable*/
 
@@ -30,10 +40,42 @@ font-size: 60px;
   background: linear-gradient(180deg, #39CCCC, #0074D9);
 }
 
-
-.confnavbtn{
-  width: 10rem;
+a{
+  color: white;
 }
+.confnavbtn{
+  width: 13rem;
+}
+
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+<<<<<<< HEAD
 linear-gradient(-180deg, lightblue, white)
 
 .datebox{}
+=======
+>>>>>>> refs/remotes/origin/master
