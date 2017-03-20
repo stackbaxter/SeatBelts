@@ -21,11 +21,7 @@ font-size: 60px;
   background-size: cover;
 }
 
->>>>>>> refs/remotes/origin/master
-.gradient{
-  /*background-color: #39CCCC;*/
-  background:linear-gradient(180deg, #39CCCC, #0074D9);
-}
+
 /*write a function to change the background linear-gradient angle with every successive child where applicable*/
 
 .background{
@@ -73,9 +69,3 @@ a{
     background: #007299;
     box-shadow: none;
 }
-<<<<<<< HEAD
-linear-gradient(-180deg, lightblue, white)
-
-.datebox{}
-=======
->>>>>>> refs/remotes/origin/master
