@@ -3,6 +3,17 @@ body{
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
+<<<<<<< HEAD
+.inputs{
+justify-content: center;
+background-color: blue;
+color: yellow;
+font-size: 60px;
+
+}
+
+
+=======
 .foot{
   height: 175px;
   background: url(img/headerpic.jpg);
@@ -10,10 +21,7 @@ body{
   background-size: cover;
 }
 
-.gradient{
-  /*background-color: #39CCCC;*/
-  background:linear-gradient(180deg, #39CCCC, #0074D9);
-}
+
 /*write a function to change the background linear-gradient angle with every successive child where applicable*/
 
 .background{
