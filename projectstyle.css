@@ -130,3 +130,13 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+.perks {
+  padding: 50px 0px 30px 0px;
+  margin: 0px 20px;
+}
+
+/*.points {
+  display: flex;
+  justify-content: space-between;
+}*/
