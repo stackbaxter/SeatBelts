@@ -12,10 +12,17 @@
 }
 
 .sec101 {
-  background-color: grey;
+  background-color: #c0c0c0;
   opacity: 0.8;
-  border-radius: 50%;
+  border-radius: 1%;
+  transform:scale(0.9);
+  height: 300px;
+  width: 400px;
+  margin-top: 100px;
 }
+
+
+
 
 .seatbeltlogo {
   width: auto;
@@ -130,3 +137,19 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+.perks {
+  padding: 50px 0px 30px 0px;
+  margin: 0px 20px;
+}
+
+.headerbuttons {
+  margin-left:  150px;
+  margin-right: 150px;
+}
+
+
+/*.points {
+  display: flex;
+  justify-content: space-between;
+}*/
