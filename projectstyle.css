@@ -12,10 +12,17 @@
 }
 
 .sec101 {
-  background-color: grey;
+  background-color: #c0c0c0;
   opacity: 0.8;
-  border-radius: 50%;
+  border-radius: 1%;
+  transform:scale(0.9);
+  height: 300px;
+  width: 400px;
+  margin-top: 100px;
 }
+
+
+
 
 .seatbeltlogo {
   width: auto;
@@ -137,8 +144,8 @@ body {
 }
 
 .headerbuttons {
-  margin-left:  100px;
-  margin-right: 100px;  
+  margin-left:  150px;
+  margin-right: 150px;
 }
 
 
