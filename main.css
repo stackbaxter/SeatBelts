@@ -3,7 +3,7 @@ body{
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
-<<<<<<< HEAD
+
 .inputs{
 justify-content: center;
 background-color: blue;
@@ -12,10 +12,8 @@ font-size: 60px;
 
 }
 
-
-=======
 .foot{
-  height: 175px;
+  height: 300px;
   background: url(img/headerpic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,11 +34,17 @@ font-size: 60px;
   background: linear-gradient(180deg, #39CCCC, #0074D9);
 }
 
+.gradient{
+
+  background: linear-gradient(180deg, #39CCCC, #0074D9);
+}
+
 a{
   color: white;
 }
 .confnavbtn{
   width: 13rem;
+  margin: 20px;
 }
 
 
