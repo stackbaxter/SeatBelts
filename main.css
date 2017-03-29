@@ -63,6 +63,7 @@ a{
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+    height: 8rem;
 }
 
 .nowbtn{
@@ -84,6 +85,7 @@ a{
 .btn-primary {
     background: #0099cc;
     color: #ffffff;
+    height: 8rem;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
