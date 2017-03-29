@@ -70,7 +70,7 @@ text-align: center;
 }
 
 a{
-  color: white;
+  color: #06041d;
 }
 .confnavbtn{
   width: 13rem;
@@ -103,20 +103,20 @@ a{
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: 0 none;
+    outline: 2 none;
 }
 
 .btn-outline-warning{
-  background-color: lightblue;
+  background-color:#122aa9;
 }
 .btn-primary {
     background: #0099cc;
-    color: #ffffff;
+    color: black;
     height: 4rem;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #33a6cc;
+    background: #0074D9;
 }
 
 .btn-primary:active, .btn-primary.active {
