@@ -1,3 +1,25 @@
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
 
 body{
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -5,11 +27,12 @@ body{
 
 
 
-.inputs{
+input{
 justify-content: center;
 background-color: blue;
 color: yellow;
-font-size: 60px;
+font-size: 1.75rem;
+text-align: center;
 
 }
 
@@ -36,8 +59,9 @@ font-size: 60px;
 }
 
 .nav{
-  height: 300px;
+  height: 500px;
   background: linear-gradient(180deg, #39CCCC, #0074D9);
+  width: 100%;
 }
 
 .gradient{
@@ -46,33 +70,53 @@ font-size: 60px;
 }
 
 a{
-  color: white;
+  color: #06041d;
 }
 .confnavbtn{
   width: 13rem;
-  margin: 20px;
+  height: 8rem;
+  margin: 5px;
+  vertical-align: middle;
 }
 
 
 .btn {
-    padding: 14px 24px;
-    border: 0 none;
+    /*padding: 14px 24px;*/
+    border: 1 solid black;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+    height: 4rem;
+    background-color: lightblue;
+}
+
+.nowbtn{
+    height: 100px;
+    width: 150px;
+    border-radius: 40%;
+    background: violet;
+    margin-top: 4px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: 0 none;
+    outline: 2 none;
 }
 
+.btn-outline-warning{
+  background-color:#122aa9;
+}
 .btn-primary {
     background: #0099cc;
-    color: #ffffff;
+    color: black;
+    height: 4rem;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #33a6cc;
+    background: #0074D9;
 }
 
 .btn-primary:active, .btn-primary.active {
