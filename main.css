@@ -1,3 +1,25 @@
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
 
 body{
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -9,7 +31,7 @@ input{
 justify-content: center;
 background-color: blue;
 color: yellow;
-font-size: 40px;
+font-size: 1.75rem;
 text-align: center;
 
 }
@@ -37,8 +59,9 @@ text-align: center;
 }
 
 .nav{
-  height: 300px;
+  height: 500px;
   background: linear-gradient(180deg, #39CCCC, #0074D9);
+  width: 100%;
 }
 
 .gradient{
@@ -52,18 +75,19 @@ a{
 .confnavbtn{
   width: 13rem;
   height: 8rem;
-  margin: 20px;
+  margin: 5px;
   vertical-align: middle;
 }
 
 
 .btn {
-    padding: 14px 24px;
+    /*padding: 14px 24px;*/
     border: 1 solid black;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    height: 8rem;
+    height: 4rem;
+    background-color: lightblue;
 }
 
 .nowbtn{
@@ -82,10 +106,13 @@ a{
     outline: 0 none;
 }
 
+.btn-outline-warning{
+  background-color: lightblue;
+}
 .btn-primary {
     background: #0099cc;
     color: #ffffff;
-    height: 8rem;
+    height: 4rem;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
