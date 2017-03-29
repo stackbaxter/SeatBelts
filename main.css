@@ -62,6 +62,14 @@ a{
     text-transform: uppercase;
 }
 
+.nowbtn{
+    height: 100px;
+    width: 150px;
+    border-radius: 40%;
+    background: violet;
+    margin-top: 4px;
+}
+
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
